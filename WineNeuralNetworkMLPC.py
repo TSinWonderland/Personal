@@ -100,3 +100,25 @@ plt.title("Feature Importance (Approx)")
 plt.xlabel("Importance")
 plt.show()
 
+##performance metrics
+
+
+print("\nClassification Report:")
+print(classification_report(y_test, y_pred, target_names=data.target_names))
+
+## cm and plot cm
+
+
+cm = confusion_matrix(y_test, y_pred)
+
+print("\nConfusion Matrix:")
+print(cm)
+
+##plot
+
+
+disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=data.target_names)
+
+disp.plot(cmap='Blues')
+plt.title("Confusion Matrix")
+plt.show()
