@@ -36,4 +36,3 @@ Jupyter Notebook or JupyterLab is recommended for running and interacting with t
 This repository reflects ongoing curiosity and growth. It is meant to evolve over time as new ideas are explored and skills continue to develop. Every project here represents progress, experimentation, and a commitment to learning.
 
 – Taylor
-<img width="432" height="650" alt="image" src="https://github.com/user-attachments/assets/92ce5a91-e322-4826-a70f-76997b9eff03" />
