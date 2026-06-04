@@ -1,1 +1,62 @@
 
+# Core Data Science
+pandas
+numpy
+scipy
+
+# Visualization
+matplotlib
+seaborn
+plotly
+yellowbrick
+
+# Machine Learning
+scikit-learn
+imbalanced-learn
+statsmodels
+
+# Advanced Models
+xgboost
+lightgbm
+catboost
+
+# Deep Learning
+tensorflow
+keras
+torch
+torchvision
+torchaudio
+
+# NLP
+nltk
+spacy
+transformers
+sentence-transformers
+gensim
+
+# Computer Vision
+opencv-python
+Pillow
+albumentations
+
+# Feature Engineering
+category_encoders
+feature-engine
+missingno
+
+# Optimization
+optuna
+scikit-optimize
+hyperopt
+
+# MLOps / Experiment Tracking
+mlflow
+wandb
+
+# Scaling
+dask
+
+# Time Series
+prophet
+statsforecast
+
