@@ -9,6 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import plot_tree
 from sklearn.metrics import accuracy_score
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classification_report
 
 ##load data
 
@@ -74,4 +75,24 @@ for i in range(3):  # show first 3 trees
     )
     plt.title(f"Tree {i+1}")
     plt.show()
+
+##performance metrics
+
+print("\nClassification Report:")
+print(classification_report(y_test, y_pred, target_names=data.target_names))
+
+
+#confusion matrix
+cm = confusion_matrix(y_test, y_pred)
+
+print("\nConfusion Matrix:")
+print(cm)
+
+##plot cm
+
+
+disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=data.target_names)
+disp.plot(cmap='Blues')
+plt.title("Confusion Matrix")
+plt.show()
 
